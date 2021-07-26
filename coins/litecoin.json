@@ -1,0 +1,12 @@
+{
+    "name": "Litecoin",
+    "symbol": "LTC",
+    "algorithm": "scrypt",
+    "peerMagic": "fbc0b6db",
+    "peerMagicTestnet": "fdd2c8f1",
+    "blockTime": 150,
+    "explorer": {
+        "txURL": "https://blockchair.com/litecoin/transaction/",
+        "blockURL": "https://blockchair.com/litecoin/block/"
+    }
+}

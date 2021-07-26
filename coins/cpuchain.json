@@ -1,0 +1,21 @@
+{
+    "name": "CPUchain",
+    "symbol": "CPU",
+    "algorithm": "cpupower",
+    "peerMagic": "deadbeef",
+    "peerMagicTestnet": "faceb00c",
+    "mainnet": {
+        "bech32": "cpu",
+        "bip32": {
+            "public": "0488b21e"
+        },
+        "pubKeyHash": "1c",
+        "scriptHash": "1e"
+    },
+    "blockTime": 60,
+    "txfee": 0.0001,
+    "explorer": {
+        "txURL": "https://explorer.cpuchain.org/tx/",
+        "blockURL": "https://explorer.cpuchain.org/block/"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "KumaCoin",
+    "symbol": "KUMA",
+    "algorithm": "quark",
+    "peerMagic": "c3d4d2fe",
+    "peerMagicTestnet": "cdf2c0ef",
+    "blockTime": 90,
+    "getInfo": true,
+    "noNetworkInfo": true,
+    "noGetnetworkhashps": true,
+    "explorer": {
+        "txURL": "https://kumabook.electrum-mona.org/tx/",
+        "blockURL": "https://kumabook.electrum-mona.org/block/"
+    }
+}
+

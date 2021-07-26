@@ -1,0 +1,99 @@
+﻿<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="cpu, gpu, asic, blockchain, mining, pool, cryptocurrency, bitcoin">
+    <meta name="description" content="node open mining portal">
+
+    <link rel="shortcut icon" href="/static/favicon.ico" />
+
+    <link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.4.2/pure-min.css">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.6/nv.d3.min.js"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.6/nv.d3.min.css">
+
+    <script src="/static/main.js"></script>
+    <link rel="stylesheet" href="/static/style.css">
+
+    <title>V-NOMP</title>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal">
+
+            <a class="pure-menu-heading hot-swapper" href="/"><i class="fa fa-home"></i>&nbsp;V-NOMP</a>
+
+            <ul>
+                <li class="{{? it.selected === 'getting_started' }}pure-menu-selected{{?}}">
+                    <a class="hot-swapper" href="/getting_started">
+                        <i class="fa fa-rocket"></i>&nbsp;
+                        Getting Started
+                    </a>
+                </li>
+                <li class="{{? it.selected === 'stats' }}pure-menu-selected{{?}}">
+                    <a class="hot-swapper" href="/stats">
+                        <i class="fa fa-bar-chart-o"></i>&nbsp;
+                        Graph Stats
+                    </a>
+                </li>
+                <li class="{{? it.selected === 'tbs' }}pure-menu-selected{{?}}">
+                    <a class="hot-swapper" href="/tbs">
+                        <i class="fa fa-table"></i>&nbsp;
+                        Tab Stats
+                    </a>
+                </li>
+                <li class="{{? it.selected === 'workers' }}pure-menu-selected{{?}}">
+                    <a class="hot-swapper" href="/workers">
+                        <i class="fa fa-cogs"></i>&nbsp;
+                        Workers Stats
+                    </a>
+                </li>
+                <li class="{{? it.selected === 'api' }}pure-menu-selected{{?}}">
+                    <a class="hot-swapper" href="/api">
+                        <i class="fa fa-code"></i>&nbsp;
+                        API
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        {{=it.page}}
+    </main>
+
+
+    <footer>
+
+        <div>
+            This site is powered by the open source <a target="_blank" href="https://github.com/blockinator/v-nomp/">v-nomp</a>
+            created by Joshua Yabut and the Zclassic Community and yoshuki43 originally and is licensed under the <a href="https://en.wikipedia.org/wiki/MIT_License">MIT License</a>
+        </div>
+        <div>
+            <i class="fa fa-heart"></i>&nbsp; Support this project by donating&nbsp;BTC: 1Jtnju5EuWFs5QZNmp8g5JYhQHqRjwzw78
+        </div>
+        <div id="communityFooter">
+            Community&nbsp;<i class="fa fa-comment"></i>&nbsp;: &nbsp;<a target="_blank" href="https://chat.yourcoin.com/">Forum</a>
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a target="_blank" href="https://yourcoin.wiki/">Wiki</a>
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a target="_blank" href="https://discord.gg/yourcoin/">Discord</a>
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <iframe src="https://ghbtns.com/github-btn.html?user=blockinator&repo=v-nomp&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20"></iframe>
+        </div>
+
+    </footer>
+
+</body>
+</html>

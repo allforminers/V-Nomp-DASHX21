@@ -1,0 +1,100 @@
+{
+    "enabled": true,
+    "coin": "dogecoin.json",
+
+    "address": "",
+
+    "rewardRecipients": {
+        "": 1.0
+    },
+
+    "BTCover17": false,
+    "_comment_BTCover17": "If BTC 0.17 or higher, payment does not work please enable it",
+
+    "paymentProcessing": {
+      	"minConf": 10,
+        "enabled": true,
+        "paymentMode": "prop",
+        "_comment_paymentMode":"prop, pplnt",
+        "paymentInterval": 120,
+        "minimumPayment": 10.0,
+        "maxBlocksPerPayment": 3,
+        "daemon": {
+            "host": "127.0.0.1",
+            "port": 22555,
+            "user": "username",
+            "password": "password"
+        }
+    },
+
+    "tlsOptions": {
+        "enabled": false,
+        "serverKey":"",
+        "serverCert":"",
+        "ca":""
+    },
+
+    "ports": {
+        "3009": {
+            "diff": 8,
+            "tls": false,
+            "varDiff": {
+                "minDiff": 0.00,
+                "maxDiff": 16,
+                "targetTime": 15,
+                "retargetTime": 60,
+                "variancePercent": 30
+            }
+        },
+        "3033": {
+            "diff": 512,
+            "tls": false,
+            "varDiff": {
+                "minDiff": 100,
+                "maxDiff": 10000,
+                "targetTime": 15,
+                "retargetTime": 60,
+                "variancePercent": 30
+            }
+        },
+        "3257": {
+            "diff": 500000,
+            "tls": false,
+            "varDiff": {
+                "minDiff": 250000,
+                "maxDiff": 1000000,
+                "targetTime": 15,
+                "retargetTime": 60,
+                "variancePercent": 30
+            }
+        }
+    },
+
+    "daemons": [
+        {
+            "host": "127.0.0.1",
+            "port": 22555,
+            "user": "username",
+            "password": "password"
+        }
+    ],
+
+    "p2p": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 22556,
+        "disableTransactions": true
+    },
+
+    "mposMode": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "",
+        "password": "",
+        "database": "",
+        "checkPassword": true,
+        "autoCreateWorker": false
+    }
+
+}

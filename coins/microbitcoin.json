@@ -1,0 +1,21 @@
+{
+    "name": "Microbitcoin",
+    "symbol": "MBC",
+    "algorithm": "yespower_b2b",
+    "peerMagic": "736d6263",
+    "peerMagicTestnet": "746d6263",
+    "mainnet": {
+        "bech32": "mbc",
+        "bip32": {
+            "public": "0488b21e"
+        },
+        "pubKeyHash": "1a",
+        "scriptHash": "33"
+    },
+    "blockTime": 60,
+    "txfee": 0.0005,
+    "explorer": {
+        "txURL": "https://microbitcoinorg.github.io/explorer/#/transaction/",
+        "blockURL": "https://microbitcoinorg.github.io/explorer/#/block/"
+    }
+}
