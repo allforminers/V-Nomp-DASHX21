@@ -29,6 +29,8 @@ fallbackfee=0.00001
 Clone the repository and run `npm update` for all the dependencies to be installed:
 
 ```bash
+sudo apt-get update
+sudo apt-get upgrade
 sudo apt-get install libminiupnpc-dev libzmq3-dev libprotobuf-dev protobuf-compiler libqrencode-dev unzip software-properties-common redis-server npm git screen -y
 sudo apt-get install build-essential libsodium-dev npm libboost-all-dev libgmp-dev redis-server -y
 sudo apt install nodejs node-gyp libssl1.0-dev -y
@@ -41,16 +43,26 @@ sudo ln -sf /usr/local/bin/npm /usr/bin/npm
 git clone https://github.com/allforminers/V-Nomp-DASHX21.git vnomp
 cd vnomp
 npm install
+
+
 ```
 
 
-````
-
-
+```
 #### 3) Start the portal
 
-```bash
+
+
+node init.js
+
+
+or
+
+bash
+
 npm start
+
+
 ```
 
 
