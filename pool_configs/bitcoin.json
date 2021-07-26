@@ -1,0 +1,78 @@
+{
+    "enabled": true,
+    "coin": "bitcoin.json",
+
+    "address": "Sh8AXkFsDY24LmEzMRxEH3upQxMghjAFCp",
+
+    "rewardRecipients": {
+        "": 0.0
+    },
+
+    "paymentProcessing": {
+        "minConf": 10,
+        "enabled": true,
+        "paymentMode": "prop",
+        "_comment_paymentMode": "prop, pplnt",
+        "paymentInterval": 120,
+        "minimumPayment": 1000000,
+        "maxBlocksPerPayment": 3,
+        "daemon": {
+            "host": "127.0.0.1",
+            "port": 8866,
+            "user": "satuucjfhfgjkk",
+            "password": "saerfthjelllllll"
+        }
+    },
+
+    "tlsOptions": {
+        "enabled": false,
+        "serverKey": "",
+        "serverCert": "",
+        "ca": ""
+    },
+
+    "ports": {
+        "3992": {
+            "diff": 500000,
+            "tls": false,
+            "varDiff": {
+                "minDiff": 500000,
+                "maxDiff": 25000000,
+                "targetTime": 15,
+                "retargetTime": 60,
+                "variancePercent": 30
+            }
+        }
+    },
+
+    "poolId": "main",
+    "_comment_poolId": "use it for region identification: eu, us, asia or keep default if you have one stratum instance for one coin",
+
+    "daemons": [
+        {
+            "host": "127.0.0.1",
+            "port": 8866,
+            "user": "satuucjfhfgjkk",
+            "password": "saerfthjelllllll"
+        }
+    ],
+
+    "p2p": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 9999,
+        "disableTransactions": true
+    },
+
+    "mposMode": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "",
+        "password": "",
+        "database": "",
+        "checkPassword": true,
+        "autoCreateWorker": false
+    }
+
+}

@@ -4,15 +4,6 @@
     "algorithm": "sha256",
     "peerMagic": "f9beb4d9",
     "peerMagicTestnet": "0b110907",
-    "mainnet": {
-        "bech32": "btc",
-        "bip32": {
-            "public": "0488b21e"
-        },
-        "pubKeyHash": "00",
-        "scriptHash": "05"
-    },
-    "blockTime": 600,
     "explorer": {
         "txURL": "https://blockchair.com/bitcoin/transaction/",
         "blockURL": "https://blockchair.com/bitcoin/block/"
